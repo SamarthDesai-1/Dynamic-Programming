@@ -6,7 +6,7 @@ public class ClimbStairsWithMinimumJumps {
         int[] arr = { 3, 2, 4, 2, 0, 2, 3, 1, 2, 2 };
 
         Integer[] dp = new Integer[n + 1];
-        dp[0] = 1;
+        dp[n] = 0;
 
         for (int i = n - 1; i >= 0; i--) {
 
@@ -25,7 +25,7 @@ public class ClimbStairsWithMinimumJumps {
 
         }
 
-        System.out.println(dp[0]);
+        System.out.println("Minimum Moves : " + dp[0]);
     }
 
 }
