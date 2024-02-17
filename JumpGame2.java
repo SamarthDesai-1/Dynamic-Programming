@@ -14,8 +14,8 @@ public class JumpGame2 {
                 return true;
         }
 
-        return false;       
-    }   
+        return false;
+    }
 
     public static void main(String[] args) {
         int[] nums = { 2, 3, 1, 1, 4 };

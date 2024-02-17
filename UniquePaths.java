@@ -39,10 +39,10 @@ public class UniquePaths {
 
     public static void main(String[] args) {
         int[][] matrix = {
-            { 0, 0, 0, 0, 0 },
-            { 0, 0, 0, 0, 0 },
-            { 0, 0, 0, 0, 0 },
-            { 0, 0, 0, 0, 0 }
+                { 0, 0, 0, 0, 0 },
+                { 0, 0, 0, 0, 0 },
+                { 0, 0, 0, 0, 0 },
+                { 0, 0, 0, 0, 0 }
         };
         int result = uniquePaths(matrix);
 

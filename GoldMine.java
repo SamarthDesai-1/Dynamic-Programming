@@ -4,10 +4,10 @@ public class GoldMine {
 
     public static void main(String[] args) {
         int[][] mine = {
-                { 7, 5, 2, 4, 6 },
-                { 8, 3, 6, 8, 1 },
-                { 8, 5, 6, 9, 2 },
-                { 8, 5, 3, 6, 5 }
+            { 7, 5, 2, 4, 6 },
+            { 8, 3, 6, 8, 1 },
+            { 8, 5, 6, 9, 2 },
+            { 8, 5, 3, 6, 5 }
         };
         int row = mine.length;
         int col = mine[0].length;
